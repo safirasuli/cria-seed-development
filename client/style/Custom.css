@@ -1,0 +1,308 @@
+body {
+    background-color: #48CEC2;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a:link {
+    color:#FFFFFF;
+}
+
+a:visited {
+    color: #FFFFFF;
+}
+
+a:hover, a:active{
+    color: #E44A4E;
+}
+
+.navbar .nav > li > a:link {
+    color:#FFFFFF;
+}
+
+.navbar .nav > li > a:visited {
+    color: #FFFFFF;
+}
+
+.navbar .nav > li > a:hover, a:active{
+    color: #E44A4E;
+}
+
+footer {
+    padding-top:15px;
+    padding-bottom:10px;
+    color:#FFFFFF;
+}
+
+footer a {
+    color:#FFFFFF;
+    text-decoration: underline;
+}
+
+footer a:visited {
+    color: #ffffff;
+}
+
+footer a:hover, a:active{
+    color: #E44A4E;
+}
+
+.validatie .ng-pristine {
+    border:2px solid Red;
+}
+.validatie .ng-dirty.ng-valid {
+    border:2px solid Green;
+}
+.validatie .ng-dirty.ng-invalid {
+    border:2px solid Red;
+}
+
+.leftmenubar {
+    position: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    /*width: 16.5%;*/ /*wordt nu met bootstrap columns geregeld*/
+    height: 41.9vw;
+    background-color: #48cec2;
+    justify-content: center;
+    padding-left: 0.4%;
+    padding-top: 0.2%;
+    padding-bottom: 0.1%;
+    left: 0;
+}
+
+.logo{
+    width:100px;
+}
+
+.Content {
+    margin-top:75px;
+}
+
+.mainApp {
+    margin-top:-25px;
+}
+
+.customContainer {
+    max-width: 600px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background: #3d454e;
+}
+
+.inputBlok {
+    background: #dfdfdf;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.inputLabel {
+    width: 35%;
+}
+
+.witteText {
+    color:#FFFFFF;
+}
+
+.rodeText {
+    color:#E44A4E;
+}
+
+.inputMargin {
+    margin:5px;
+}
+
+.Tekentje {
+    height: 20px;
+    width: 20px;
+}
+
+.boxje {
+    flex-shrink: 1;
+    flex-grow: 1;
+    position: relative;
+    background-color: #3e464f;
+    width: 40%;
+    height: 18.6%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.boxje img {
+    z-index: 2;
+    position: absolute;
+    margin: auto;
+    width: 80%;
+    height: 75%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#piechart {
+    position: absolute;
+    /*float: right;*/
+    /*margin-top: -1%;*/
+    /*margin-left: 35%;*/
+    width: 60vw;
+    left: 30vw;
+    height: 40vw;
+}
+
+.wiezijnwijplaatje {
+    width: 25%;
+    height: 25%;
+    margin: 10px;
+}
+.onderhoudplaatje {
+    width: 10%;
+    height: 10%;
+    margin: 10px;
+}
+
+.mininavbar {
+    position: relative;
+    font-size: 16px;
+    background-color:#ED5F54;
+    height:40px;
+    width:100%;
+
+}
+.mininavbarbutton {
+    position: relative;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:100%;
+    float: left;
+    width: 24%;
+}
+
+.mininavbartext {
+    line-height:40px;
+    font-weight: bold;
+}
+
+.mininavbarbutton1 {
+    background-image: url("images/mininavbar/pijl1.png");
+    z-index:7;
+    width:23%;
+}
+.mininavbarbutton2 {
+    background-image: url("images/mininavbar/pijl2.png");
+    margin-left:-4%;
+    z-index:6;
+}
+.mininavbarbutton3 {
+    background-image: url("images/mininavbar/pijl3.png");
+    margin-left:-4%;
+    z-index:5;
+
+}
+.mininavbarbutton4 {
+    background-image: url("images/mininavbar/pijl4.png");
+    margin-left:-4%;
+    z-index:4;
+}
+.mininavbarbutton5 {
+    background-image: url("images/mininavbar/pijl5.png");
+    margin-left:-4%;
+    width: 17.9%;
+    z-index:3;
+
+}
+.mininavbarbutton6 {
+    background-image: url("images/mininavbar/blok.png");
+    width: 3%;
+    z-index:2;
+}
+.minicontent {
+    background-color: #F3F3F3;
+    position:absolute;
+    height:100%;
+    right:0;
+    padding-top:20px;
+    padding-right: 30px;
+    padding-left:30px;
+}
+
+.overzichtbutton {
+    font-weight:bold;
+    font-size: 1.2vw;
+    padding: 2%;
+    color: #fff;
+    background-color: #3E464F;
+    border-color: #3E464F;
+    width:20%;
+    margin: 17.5% 1% 5% 1%;
+}
+
+.tijdsduurForm {
+    /*z-index: 0;*/
+    position: absolute;
+    left: 17vw;
+}
+
+.samenstellenPagina {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-top: -25px;
+}
+
+.muziekZoeklijst {
+    width: 16.5%;
+    border: 5px;
+    border-color: black;
+    height: auto;
+
+}
+
+#rijLiedje {
+    padding: auto;
+    padding-top: 10px;
+    color: white;
+}
+
+
+.buttonPlusje {
+    font-family: "Source Sans Pro Semi-Bold 600" , sans-serif;
+    font-weight: 600;
+    font-size: 100%;
+    background-color: #48cec2;
+    background: none;
+    padding: 0;
+    border: none;
+    float: left;
+    margin: auto;
+    outline: none;
+
+}
+.buttonPlusje img {
+    width: 12px;
+    height: auto;
+}
+
+#zoekKnop {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    left: -22px;
+    top: 3px;
+}
+
+.liedjeContainer {
+    margin-right: 20px;
+    float: right;
+
+}
